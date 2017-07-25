@@ -4,6 +4,7 @@ import template from './messages.html';
 console.log('Index started');
 console.dir(new Message());
 
+/* executa o hotmodule a partir daqui */
 /* eslint no-undef: 0 */
 document.getElementById('send').onclick = () => {
   const m = new Message(document.getElementById('message').value);
