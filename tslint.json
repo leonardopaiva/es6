@@ -1,0 +1,16 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "max-line-length": [
+            true,
+            80
+        ],
+        "quotemark": [
+            "single"
+        ],
+        "only-arrow-functions": [
+            false
+        ],
+        "no-var-requires": false
+    }
+}
