@@ -11,7 +11,7 @@ const Message = function(text) {
   this.text = text;
   this.created = Date.now();
 }
-
+//test
 /* eslint no-undef: 0 */
 (<HTMLButtonElement> document.getElementById('send')).onclick = () => {
   const m = new Message(
